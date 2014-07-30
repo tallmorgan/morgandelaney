@@ -23,6 +23,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="index.txt" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Desktop/www/index.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="30" column="15" selection-start="290" selection-end="308" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2707">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="style.sass" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sass/style.sass">
           <provider selected="true" editor-type-id="text-editor">
@@ -35,7 +44,7 @@
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="32" selection-start="66" selection-end="66" vertical-scroll-proportion="0.042429283" vertical-offset="0" max-vertical-offset="1542">
+            <state line="3" column="28" selection-start="62" selection-end="62" vertical-scroll-proportion="0.042429283" vertical-offset="0" max-vertical-offset="1542">
               <folding />
             </state>
           </provider>
@@ -76,7 +85,7 @@
     <option name="STATE" value="0" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+    <navigator proportions="" version="1" splitterProportion="0.5">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -87,32 +96,10 @@
       <autoscrollFromSource />
       <sortByType />
     </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="morgan" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="morgan" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="morgan" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/www/index.txt" />
     <property name="WebServerToolWindowFactoryState" value="true" />
   </component>
   <component name="RunManager">
@@ -225,9 +212,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/Desktop/www/index.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="15" selection-start="290" selection-end="308" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2707">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="32" selection-start="66" selection-end="66" vertical-scroll-proportion="0.042429283" vertical-offset="0" max-vertical-offset="1542">
+        <state line="3" column="28" selection-start="62" selection-end="62" vertical-scroll-proportion="0.042429283" vertical-offset="0" max-vertical-offset="1542">
           <folding />
         </state>
       </provider>
