@@ -23,10 +23,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.txt" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.txt" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$USER_HOME$/Desktop/www/index.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="15" selection-start="290" selection-end="308" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2707">
+            <state line="49" column="22" selection-start="508" selection-end="520" vertical-scroll-proportion="0.67833877" vertical-offset="0" max-vertical-offset="2707">
               <folding />
             </state>
           </provider>
@@ -41,10 +41,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="28" selection-start="62" selection-end="62" vertical-scroll-proportion="0.042429283" vertical-offset="0" max-vertical-offset="1542">
+            <state line="15" column="33" selection-start="638" selection-end="638" vertical-scroll-proportion="-9.807693" vertical-offset="0" max-vertical-offset="1542">
               <folding />
             </state>
           </provider>
@@ -212,16 +212,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/www/index.txt">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="15" selection-start="290" selection-end="308" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2707">
+        <state line="15" column="33" selection-start="638" selection-end="638" vertical-scroll-proportion="-9.807693" vertical-offset="0" max-vertical-offset="1542">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$USER_HOME$/Desktop/www/index.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="28" selection-start="62" selection-end="62" vertical-scroll-proportion="0.042429283" vertical-offset="0" max-vertical-offset="1542">
+        <state line="49" column="22" selection-start="508" selection-end="520" vertical-scroll-proportion="0.67833877" vertical-offset="0" max-vertical-offset="2707">
           <folding />
         </state>
       </provider>
