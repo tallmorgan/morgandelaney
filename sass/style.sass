@@ -1,0 +1,67 @@
+@import "reset"
+@import "compass"
+@import "animation"
+
+body, html, .valign
+  height: 100%
+  white-space: nowrap
+
+body
+  background: #5684b1
+  color: #fff
+  font-family: 'Helvetica Neue', 'Roboto', 'Arial'
+  text-align: center
+  position: relative
+
+a
+  color: #fff
+  text-decoration: none
+  &:hover
+    text-decoration: none
+    border-bottom: 1px dotted #fff
+
+.shadow
+  position: fixed
+  z-index: 5
+  width: 100%
+  height: 100%
+  box-shadow: inset 0 2px 580px rgba(25,25,25,0.2)
+  display: none
+
+.content
+  position: relative
+  height: 100%
+  z-index: 10
+
+  .valign, .message
+    +inline-block
+    vertical-align: middle
+
+  .message
+    line-height: 36px
+
+  img
+    display: block
+    border-radius: 50%
+    margin: 0 auto 30px
+    width: 300px
+    height: 300px
+
+  h1
+    font-weight: 500
+    font-size: 36px
+
+  h2
+    font-weight: 100
+    font-size: 24px
+    letter-spacing: 1px
+    opacity: 0.8
+
+  h3
+    font-weight: 100
+    margin-top: 15px
+    font-size: 24px
+    opacity: 0.8
+    letter-spacing: 1px
+    border-top: 1px dotted rgba(255,255,255,0.6)
+    padding-top: 15px
