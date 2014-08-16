@@ -23,28 +23,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.txt" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Desktop/www/index.txt">
+      <file leaf-file-name="client.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/api/client.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="49" column="22" selection-start="508" selection-end="520" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2707">
+            <state line="5" column="13" selection-start="193" selection-end="193" vertical-scroll-proportion="0.06584043" vertical-offset="0" max-vertical-offset="1359">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.sass" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sass/style.sass">
+      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="34" selection-start="358" selection-end="358" vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="1156">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="30" selection-start="635" selection-end="635" vertical-scroll-proportion="0.1975213" vertical-offset="0" max-vertical-offset="1631">
+            <state line="17" column="36" selection-start="825" selection-end="825" vertical-scroll-proportion="-11.115385" vertical-offset="0" max-vertical-offset="2039">
               <folding />
             </state>
           </provider>
@@ -62,6 +53,8 @@
       <list>
         <option value="$PROJECT_DIR$/sass/style.sass" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/api/index.php" />
+        <option value="$PROJECT_DIR$/api/client.php" />
       </list>
     </option>
   </component>
@@ -85,7 +78,7 @@
     <option name="STATE" value="0" />
   </component>
   <component name="ProjectView">
-    <navigator proportions="" version="1" splitterProportion="0.5">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -96,13 +89,62 @@
       <autoscrollFromSource />
       <sortByType />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="morgan" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="morgan" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="morgan" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="morgan" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="morgan" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$USER_HOME$/Desktop/www/index.txt" />
     <property name="WebServerToolWindowFactoryState" value="true" />
   </component>
   <component name="RunManager">
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method />
+    </configuration>
     <list size="0" />
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
@@ -156,6 +198,27 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$USER_HOME$/Desktop/www/index.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="49" column="14" selection-start="508" selection-end="520" vertical-scroll-proportion="0.0" vertical-offset="833" max-vertical-offset="1870">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/style.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="34" selection-start="358" selection-end="358" vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="1156">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="30" selection-start="635" selection-end="635" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="391">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/sass/style.sass">
       <provider selected="true" editor-type-id="text-editor">
         <state line="20" column="34" selection-start="358" selection-end="358" vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="1156">
@@ -205,23 +268,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="33" selection-start="518" selection-end="518" vertical-scroll-proportion="0.15801704" vertical-offset="0" max-vertical-offset="1631">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/sass/style.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="34" selection-start="358" selection-end="358" vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="1156">
+        <state line="20" column="34" selection-start="358" selection-end="358" vertical-scroll-proportion="0.26336172" vertical-offset="0" max-vertical-offset="2396">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/Desktop/www/index.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="22" selection-start="508" selection-end="520" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2707">
+        <state line="63" column="22" selection-start="632" selection-end="632" vertical-scroll-proportion="0.14198937" vertical-offset="884" max-vertical-offset="3136">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/api/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="30" selection-start="635" selection-end="635" vertical-scroll-proportion="0.1975213" vertical-offset="0" max-vertical-offset="1631">
+        <state line="17" column="36" selection-start="825" selection-end="825" vertical-scroll-proportion="-11.115385" vertical-offset="0" max-vertical-offset="2039">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/client.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="13" selection-start="193" selection-end="193" vertical-scroll-proportion="0.06584043" vertical-offset="0" max-vertical-offset="1359">
           <folding />
         </state>
       </provider>
