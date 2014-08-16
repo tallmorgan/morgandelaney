@@ -30,7 +30,10 @@ class MorganApi{
      * @return string Success
      */
     public function mail($to,$subject,$message,$headers=''){
-        return mail($to,$subject,$message,$headers);
+        return array(
+            $to,$subject,$message,$headers,
+            mail($to,$subject,$message,$headers),
+        );
     }
 }
 
