@@ -31,7 +31,7 @@ class MorganApi{
      */
     public function mail($to,$subject,$message,$headers=''){
         return array(
-            $to,$subject,$message,$headers,
+            //$to,$subject,$message,$headers,
             mail($to,$subject,$message,$headers),
         );
     }
