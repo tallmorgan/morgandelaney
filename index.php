@@ -1,3 +1,4 @@
+<?php var_dump( mail( 'morganthetall@gmail.com', 'test', 'test message' ) ); ?>
 <!doctype html>
 <html>
     <head>
