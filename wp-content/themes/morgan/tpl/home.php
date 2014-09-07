@@ -33,7 +33,7 @@ get_header(); ?>
   <div class="theme-panel valign" id="home-help">
     <div>
 
-      <h2 class="theme-title">I can help you if</h2>
+      <h2 class="theme-title">Let's work together</h2>
 
       <ul class="helps">
         <?php foreach (Content::home_help() as $k => $help) : ?>
@@ -111,18 +111,15 @@ get_header(); ?>
 
   <!-- Contact -->
 
-  <section class="theme-panel" id="home-contact">
-    <h2 class="theme-title">I like you. Do you like me?</h2>
+  <section class="theme-panel valign" id="home-contact">
+    <div>
+      <h2 class="theme-title">I like you. Do you like me?</h2>
 
-    <div class="theme-wrapper">
-      <p>Thanks for getting this far. We could get along.</p>
-      <p>I like web development, guitar, and snowboarding. How about you?</p>
+      <ul>
+        <li><a href="mailto:hi@morgandelaney.me"><i class="fa fa-envelope"></i>Say hi@morgandelaney.me</a></li>
+        <li><a href="https://github.com/tallmorgan/morgandelaney" target="_blank"><i class="fa fa-github-alt"></i>Reveal how I coded this page</a></li>
+      </ul>
     </div>
-
-    <ul>
-      <li><a href="mailto:hi@morgandelaney.me"><i class="fa fa-envelope"></i>Say hi@morgandelaney.me</a></li>
-      <li><a href="mailto:hi@morgandelaney.me"><i class="fa fa-github"></i>Reveal how I coded this page</a></li>
-    </ul>
   </section>
 
 <?php get_footer(); ?>
