@@ -20,6 +20,5 @@
 !.gitmodules
 !wp-content/
 !config.rb
-!api/
 !backup.sql
 !README.md
