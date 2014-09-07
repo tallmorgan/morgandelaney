@@ -1,0 +1,3 @@
+[submodule "wp-content/themes/morgan/_/libs/pswp"]
+	path = wp-content/themes/morgan/_/libs/pswp
+	url = https://morgandelaney@bitbucket.org/programstudio/ps-wordpress.git

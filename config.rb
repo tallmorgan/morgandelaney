@@ -18,12 +18,12 @@ firesass = false
 
 
 # Location of the theme's resources.
-css_dir         = ""
-sass_dir        = "sass"
-#extensions_dir = "sass-extensions"
-extensions_dir  = "sass"
-images_dir      = "images"
-javascripts_dir = "js"
+css_dir         = "wp-content/themes/morgan"
+sass_dir        = "wp-content/themes/morgan/_/sass"
+#extensions_dir  = "sass-extensions"
+extensions_dir  = "wp-content/themes/morgan/_/sass"
+images_dir      = "wp-content/themes/morgan/_/img"
+javascripts_dir = "wp-content/themes/morgan/_/js"
 
 
 ##
