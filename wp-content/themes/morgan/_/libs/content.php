@@ -40,8 +40,35 @@ class Content
   {
     return array(
       array(
-        'img' => 'north-arm',
+        'img' => 'evoda',
+        'url' => 'http://evodagroup.com/',
+        'tooltip' => 'Check out my team',
       ),
+      array(
+        'img' => 'know-gmo',
+        'url' => 'http://knowgmo.com/quiz/',
+        'tooltip' => 'Take the quiz',
+      ),
+      array(
+        'img' => 'barbershop',
+        'url' => 'http://barbershopfilms.ca/',
+        'tooltip' => 'Browse a video portfolio',
+      ),
+      array(
+        'img' => 'north-arm',
+        'url' => 'http://websitestage.ca/north-arm/',
+        'tooltip' => 'An awesome full-screen app feel',
+      ),
+      array(
+        'img' => 'performance-evolution',
+        'url' => 'http://myperformanceevolution.com/',
+        'tooltip' => 'A beautiful, scrolling website',
+      ),
+      array(
+        'img' => 'sharenation',
+        'url' => 'http://sharenation.tv/',
+        'tooltip' => 'A responsive coupon-charing app',
+      )
     );
   }
 }

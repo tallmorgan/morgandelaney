@@ -15,7 +15,7 @@ get_header(); ?>
           <div class="side right">
             <h1>Hi, my name is Morgan</h1>
 
-            <h2>I make websites. My specialty is in frontend development, and I work heart-and-soul
+            <h2>I make websites. My specialty is in front end development, and I work heart-and-soul
               out of beautiful Vancouver, Canada.</h2>
           </div>
         </div>
@@ -80,12 +80,13 @@ get_header(); ?>
         </ul>
 
         <ul class="work">
-          <?php for ($i = 0; $i < 6; $i++) foreach (Content::home_portfolio() as $portfolio) : ?>
+          <?php foreach (Content::home_portfolio() as $portfolio) : ?>
             <li>
-              <a href="#">
-                <span>
+              <a href="<?php echo $portfolio[ 'url' ]; ?>" target="_blank">
+                <span class="wrap">
                   <img src="<?php echo get_bloginfo('template_url') . '/_/img/home/portfolio/' . $portfolio['img'] . '.jpg'; ?>" alt="">
                 </span>
+                <span class="tooltip"><?php echo $portfolio[ 'tooltip' ]; ?></span>
               </a>
             </li>
           <?php endforeach; ?>
