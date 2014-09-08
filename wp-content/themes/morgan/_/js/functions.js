@@ -26,8 +26,10 @@ var Mo_Home = function( $ )
 
         $('<img />', { src: matches[1], id: id }).appendTo( 'body' );
 
+        alert( 'test' );
         imagesLoaded( id, function()
         {
+          alert( 'hey' );
           $( id ).remove();
           setTimeout(function()
           {
