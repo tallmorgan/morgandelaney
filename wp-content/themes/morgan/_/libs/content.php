@@ -10,7 +10,7 @@ class Content
         'desc' => 'Your website should be more than a site; it should be your toolbox. That’s why the websites I build are not only visually impactful, but they also give you the power to update.',
       ),
       array(
-        'title' => 'Your team needs a front end developer',
+        'title' => 'Your team needs a front end or full stack developer',
         'desc' => 'Working for more than 3 years with agencies, I’ve got a knack for crafting the perfect user experience and delivering the product you want.',
       ),
       array(
