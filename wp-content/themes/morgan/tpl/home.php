@@ -149,11 +149,11 @@ get_header(); ?>
 
         <ul>
           <li>
-            <a href="mailto:hi@morgandelaney.me"><i class="fa fa-envelope"></i> Say hi@morgandelaney.me</a>
+            <a href="mailto:hi@morgandelaney.me"><i class="fa fa-envelope"></i>Say hi@morgandelaney.me</a>
           </li>
           <li>
-            <a href="https://github.com/tallmorgan/morgandelaney" target="_blank"><i class="fa fa-github-alt"></i>
-              Reveal how I coded this page</a>
+            <a href="https://github.com/tallmorgan/morgandelaney" target="_blank"><i class="fa fa-github-alt"></i><!--
+              -->Reveal how I coded this page</a>
           </li>
         </ul>
 
