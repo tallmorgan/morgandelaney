@@ -1,0 +1,109 @@
+.theme-wrapper
+  width: 600px
+
+.theme-panel
+  padding: 60px 0
+
+.theme-title
+  .desktop
+    display: none
+  .mobile
+    display: block
+
+$media-height-mobile: 300px
+
+#home-welcome
+  height: auto
+  padding-bottom: $media-height-mobile + 60px
+  .abstract
+    height: auto
+    > div
+      text-align: center
+    .sides
+      margin: 0
+      white-space: normal
+      top: 0
+      .side
+        display: block
+        margin: 0 auto
+        &.left
+          img
+            margin: 0 auto 60px
+  .media
+    > div
+      background-image: url( "_/img/home/mobile-media.jpg" )
+      height: $media-height-mobile
+      width: 529px
+
+#home-help .helps li
+  display: block
+  width: auto
+  margin: 0 0 60px
+  .number
+    width: 78px
+    height: 78px
+
+#home-about
+  height: auto
+  padding: 0
+  .right
+    width: 100%
+    height: auto
+    position: static
+    .content
+      > div
+        width: 600px
+        margin: 0 auto
+        max-width: none
+        display: block
+        padding: 40px 20px 60px
+
+#home-clients
+  img
+    display: none
+    &.mobile
+      display: block
+      width: 360px
+      height: 422px
+        
+#home-portfolio
+  .disciplines
+    margin: 0 auto 60px
+    li
+      white-space: normal
+      text-align: left
+      display: inline
+      span
+        display: none
+  .work
+    display: none
+    &.mobile
+      display: block
+      li
+        width: 360px
+        height: 679px
+        margin: 0 auto 60px
+        display: block
+        a
+          display: block
+          height: 100%
+          background: url( "_/img/home/mobile-portfolio.jpg" ) no-repeat
+        .wrap
+          display: block
+          margin: 0 auto
+          position: relative
+          top: 100px
+          width: 270px
+          height: 479px
+          left: 0px
+        img
+          display: block
+          width: 100%
+          height: 100%
+
+#home-contact
+  ul
+    display: block
+    width: auto
+    li
+      text-align: center

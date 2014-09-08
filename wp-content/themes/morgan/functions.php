@@ -94,6 +94,9 @@ function posted_on()
   );
 }
 
+/**
+ * Theme javascript assets
+ */
 function morgan_enqueue_scripts()
 {
   wp_enqueue_script(
@@ -108,3 +111,14 @@ function morgan_enqueue_scripts()
 add_action('wp_enqueue_scripts', 'morgan_enqueue_scripts');
 
 include "_/libs/content.php";
+
+/**
+ * Echo a viewport based on which device is visiting the site
+ */
+function morgan_viewport()
+{
+  $width = function_exists( 'is_mobile' ) && is_mobile()
+    ? '640' : 'device-width';
+
+  echo "width=$width";
+}

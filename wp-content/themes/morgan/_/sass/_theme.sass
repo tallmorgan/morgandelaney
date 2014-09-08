@@ -1,8 +1,9 @@
+// Used to trace the design, left off of course in staging/production
 =ghost
   &:before
     content: ''
     position: absolute
-    top: 611px //0
+    top: 11px
     left: 0
     width: 100%
     height: 5000px
@@ -14,12 +15,12 @@
 body
   //+ghost
   font-size: $body-font-size
+  color: $dark-gray
   position: relative
   font-family: 'Open Sans'
-  color: $dark-gray
 
 html, body, #wrapper
-  height: 100%
+  //height: 100%
   margin: 0
   width: auto
 
@@ -48,11 +49,13 @@ h1, h2, h3, h4, h5, h6
 
 
 .theme-title
-  font-size: 28px //24px
+  font-size: 1.7rem
   text-align: center
   display: block
   margin-bottom: 60px
   //font-weight: 600
+  .mobile
+    display: none
 
 .theme-wrapper
   max-width: 960px

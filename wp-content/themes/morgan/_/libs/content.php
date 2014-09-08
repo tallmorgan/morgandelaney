@@ -23,15 +23,17 @@ class Content
   public static function home_disciplines()
   {
     return array(
-      'PHP (including CodeIgniter-Bonfire, WordPress, Drupal)',
-      'JavaScript (including jQuery, AngularJS)',
+      'PHP (+ CodeIgniter-Bonfire, WordPress, Drupal)',
+      'JavaScript (+ jQuery, AngularJS)',
       'MySQL',
       'HTML5',
       'CSS3',
-      'Unix-based Server Administration',
-      'Mobile/Responsive Web',
       'SASS',
       'Git',
+      'Photoshop',
+      'Illustrator',
+      'Unix-based Server Administration',
+      'Mobile/Responsive Web',
       //'LAMP stack',
     );
   }
@@ -39,36 +41,58 @@ class Content
   public static function home_portfolio()
   {
     return array(
-      array(
-        'img' => 'evoda',
-        'url' => 'http://evodagroup.com/',
-        'tooltip' => 'Check out my team',
+      'desktop' => array(
+        array(
+          'img' => 'evoda',
+          'url' => 'http://evodagroup.com/',
+          'title' => 'Evoda Group',
+          'tooltip' => 'Check out my team',
+        ),
+        array(
+          'img' => 'know-gmo',
+          'url' => 'http://knowgmo.com/quiz/',
+          'title' => 'Nature\'s Path: Know GMO',
+          'tooltip' => 'Take the quiz',
+        ),
+        array(
+          'img' => 'barbershop',
+          'url' => 'http://barbershopfilms.ca/',
+          'title' => 'Barbershop Films',
+          'tooltip' => 'Browse a video portfolio',
+        ),
+        array(
+          'img' => 'north-arm',
+          'url' => 'http://websitestage.ca/north-arm/',
+          'title' => 'North Arm',
+          'tooltip' => 'An awesome full-screen app feel',
+        ),
+        array(
+          'img' => 'performance-evolution',
+          'url' => 'http://myperformanceevolution.com/',
+          'title' => 'Performance Evolution',
+          'tooltip' => 'A beautiful, scrolling website',
+        ),
+        array(
+          'img' => 'sharenation',
+          'url' => 'http://sharenation.tv/',
+          'title' => 'ShareNation',
+          'tooltip' => 'A responsive coupon-charing app',
+        ),
       ),
-      array(
-        'img' => 'know-gmo',
-        'url' => 'http://knowgmo.com/quiz/',
-        'tooltip' => 'Take the quiz',
+      'mobile' => array(
+        array(
+          'img' => 'evoda',
+          'url' => 'http://evodagroup.com/',
+        ),
+        array(
+          'img' => 'sharenation',
+          'url' => 'http://sharenation.tv',
+        ),
+        array(
+          'img' => 'comfort-inn',
+          'url' => 'http://comfortinndowntown.com',
+        ),
       ),
-      array(
-        'img' => 'barbershop',
-        'url' => 'http://barbershopfilms.ca/',
-        'tooltip' => 'Browse a video portfolio',
-      ),
-      array(
-        'img' => 'north-arm',
-        'url' => 'http://websitestage.ca/north-arm/',
-        'tooltip' => 'An awesome full-screen app feel',
-      ),
-      array(
-        'img' => 'performance-evolution',
-        'url' => 'http://myperformanceevolution.com/',
-        'tooltip' => 'A beautiful, scrolling website',
-      ),
-      array(
-        'img' => 'sharenation',
-        'url' => 'http://sharenation.tv/',
-        'tooltip' => 'A responsive coupon-charing app',
-      )
     );
   }
 }
