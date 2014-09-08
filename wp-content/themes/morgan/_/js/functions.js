@@ -10,7 +10,8 @@ var Mo_Home = function( $ )
 
   this.animate_hero = function()
   {
-    var throttle = 0,
+    var current_id = 0,
+      throttle = 0,
       throttle_step = 300; // Break up when the images actually appear, just a bit
 
     $( '#home-welcome' ).find( '.media .medium' ).each(function()
@@ -21,17 +22,21 @@ var Mo_Home = function( $ )
 
       if ( matches )
       {
-        // Image load check via:
-        // http://stackoverflow.com/questions/5057990/how-can-i-check-if-a-background-image-is-loaded
-        $('<img/>', { src: matches[1] }).appendTo( 'body' ).load(function()
+        var id = 'hero-' + current_id;
+
+        $('<img />', { src: matches[1], id: id }).appendTo( 'body' );
+
+        imagesLoaded( id, function()
         {
-          $(this).remove(); // prevent memory leaks as @benweet suggested
+          $( id ).remove();
           setTimeout(function()
           {
             $this.removeClass( 'hide' );
           }, throttle );
           throttle += throttle_step;
         });
+
+        current_id++;
       }
     });
   };

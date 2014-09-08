@@ -116,6 +116,14 @@ function morgan_enqueue_scripts()
   );
 
   wp_enqueue_script(
+    'imagesloaded',
+    get_bloginfo( 'template_url' ) . '/_/js/imagesloaded.pkgd.min.js',
+    array( 'jquery' ),
+    false,
+    true
+  );
+
+  wp_enqueue_script(
     'theme',
     get_bloginfo('template_url') . '/_/js/functions.js',
     array('jquery'),
