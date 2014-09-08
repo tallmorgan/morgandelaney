@@ -28,7 +28,7 @@ var Mo_Home = function( $ )
 
         imagesLoaded( id, function()
         {
-          $( id ).remove();
+          $this.remove();
           setTimeout(function()
           {
             $this.removeClass( 'hide' );
