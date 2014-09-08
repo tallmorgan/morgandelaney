@@ -27,7 +27,11 @@ get_header(); ?>
     </div>
 
     <div class="media">
-      <div></div>
+      <div>
+        <?php foreach( array( 'mobile', 'tablet', 'laptop' ) as $device ) : ?>
+          <div class="medium hide <?php echo $device; ?>"></div>
+        <?php endforeach; ?>
+      </div>
     </div>
 
   </div>

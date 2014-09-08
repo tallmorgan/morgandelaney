@@ -11,7 +11,7 @@
     display: block
 
 .has-animation
-  opacity: 1!important
+  opacity: 1!important // It really is important! Never hide on mobile (nasty scroll)!
 
 $media-height-mobile: 300px
 
@@ -37,6 +37,8 @@ $media-height-mobile: 300px
       background-image: url( "_/img/home/mobile-media.jpg" )
       height: $media-height-mobile
       width: 529px
+    .medium
+      display: none
 
 #home-help .helps li
   display: block

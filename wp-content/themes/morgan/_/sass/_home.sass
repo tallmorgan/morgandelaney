@@ -5,6 +5,7 @@ $media-height: 322px
   color: #fff
   height: 650px
   font-size: 0
+  overflow: hidden
   .abstract
     +calc( "height", "100% - #{$media-height}" )
     text-align: center
@@ -49,13 +50,37 @@ $media-height: 322px
     bottom: 0
     width: 100%
     > div
-      background: url( "_/img/home/media-fs8.png" ) no-repeat
       height: $media-height
       display: block
       width: 848px
       margin: 0 auto
-      //position: relative
-      //left: 10px
+      position: relative
+    .medium
+      +transition(all 0.3s ease-out)
+      position: absolute
+      &.tablet
+        background: url("_/img/home/media/regular/tablet-fs8.png") no-repeat
+        width: 493px
+        height: 352px
+        bottom: -33px
+        left: 351px
+      &.mobile
+        background: url("_/img/home/media/regular/mobile-fs8.png") no-repeat
+        width: 181px
+        height: 341px
+        bottom: -84px
+        left: 345px
+        z-index: 10
+      &.laptop
+        background: url("_/img/home/media/regular/laptop-fs8.png") no-repeat
+        width: 462px
+        height: 265px
+        bottom: -1px
+        left: 6px
+        z-index: 5
+      &.hide
+        +translateY(100px)
+        +opacity(0)
 
 #home-help
   //padding-top: 66px
