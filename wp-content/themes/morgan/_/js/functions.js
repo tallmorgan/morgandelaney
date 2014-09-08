@@ -23,7 +23,7 @@ var Mo_Home = function( $ )
       {
         // Image load check via:
         // http://stackoverflow.com/questions/5057990/how-can-i-check-if-a-background-image-is-loaded
-        $('<img/>').attr('src', matches[1]).load(function()
+        $('<img/>', { src: matches[1] }).appendTo( 'body' ).load(function()
         {
           $(this).remove(); // prevent memory leaks as @benweet suggested
           setTimeout(function()
