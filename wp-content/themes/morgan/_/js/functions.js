@@ -24,11 +24,11 @@ var Mo_Home = function( $ )
       {
         var id = 'hero-' + current_id;
 
-        $('<img />', { src: matches[1], id: id }).appendTo( 'body' );
+        var $img = $('<img />', { src: matches[1], id: id }).appendTo( 'body' );
 
         imagesLoaded( id, function()
         {
-          $this.remove();
+          $img.remove();
           setTimeout(function()
           {
             $this.removeClass( 'hide' );
