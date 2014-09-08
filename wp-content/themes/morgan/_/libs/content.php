@@ -7,7 +7,7 @@ class Content
     return array(
       array(
         'title' => 'You want a beautiful, controllable website',
-        'desc' => 'Your website should be more than site; it should be your toolbox. That’s why the websites I build are not only visually impactful, but they also give you the power to update.',
+        'desc' => 'Your website should be more than a site; it should be your toolbox. That’s why the websites I build are not only visually impactful, but they also give you the power to update.',
       ),
       array(
         'title' => 'Your team needs a frontend developer',
