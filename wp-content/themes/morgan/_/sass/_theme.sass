@@ -32,6 +32,22 @@ a
 h1, h2, h3, h4, h5, h6
   font-weight: normal // Safari!
 
+
+#login
+  .forgetmenot label input
+    position: relative
+    top: -3px
+  h1
+    a
+      +border-radius(50%)
+      background: url( "_/img/home/howdy.jpg" ) no-repeat
+      display: block
+      width: 205px
+      height: 205px
+      text-indent: -9999px
+      margin: 0 auto 20px
+      padding: 0
+
 .theme-panel
   position: relative
   //height: 100%
@@ -60,3 +76,10 @@ h1, h2, h3, h4, h5, h6
 .theme-wrapper
   max-width: 960px
   margin: 0 auto
+
+.has-animation
+  +transition( all 0.3s ease-out )
+  +opacity( 1 )
+  &.hide
+    +transition( all 0 ease-out )
+    +opacity( 0 )

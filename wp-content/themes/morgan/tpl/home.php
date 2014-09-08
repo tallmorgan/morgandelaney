@@ -43,7 +43,7 @@ get_header(); ?>
 
         <ul class="helps">
           <?php foreach (Content::home_help() as $k => $help) : ?>
-            <li>
+            <li class="has-animation">
               <span class="number"><span><?php echo $k + 1; ?></span></span>
               <span class="title"><?php echo $help['title']; ?></span>
               <span class="desc"><?php echo $help['desc']; ?></span>
@@ -98,7 +98,7 @@ get_header(); ?>
         <?php foreach (Content::home_portfolio() as $device => $work) : ?>
           <ul class="work <?php echo $device; ?>">
             <?php foreach ($work as $portfolio) : ?>
-              <li>
+              <li class="has-animation">
                 <a href="<?php echo $portfolio[ 'url' ]; ?>" target="_blank">
                   <span class="wrap">
                     <img src="<?php echo get_bloginfo('template_url') . '/_/img/home/portfolio/' . $device . '/' .

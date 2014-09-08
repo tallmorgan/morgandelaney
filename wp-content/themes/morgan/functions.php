@@ -100,9 +100,25 @@ function posted_on()
 function morgan_enqueue_scripts()
 {
   wp_enqueue_script(
+    'waypoints',
+    get_bloginfo( 'template_url' ) . '/_/js/waypoints.min.js',
+    array( 'jquery' ),
+    false,
+    true
+  );
+
+  wp_enqueue_script(
+    'evd-animate',
+    get_bloginfo( 'template_url' ) . '/_/js/evd-animate.js',
+    array( 'jquery' ),
+    false,
+    true
+  );
+
+  wp_enqueue_script(
     'theme',
     get_bloginfo('template_url') . '/_/js/functions.js',
-    array('jquery','panlize'),
+    array('jquery'),
     false,
     true
   );
@@ -122,3 +138,5 @@ function morgan_viewport()
 
   echo "width=$width";
 }
+
+include "_/libs/pswp/index.php";

@@ -1,0 +1,120 @@
+<!doctype html><!--[if lt IE 7 ]><html
+class="ie ie6 ie-lt10 ie-lt9 ie-lt8 ie-lt7 no-js" lang="en-US"> <![endif]--> <!--[if IE 7 ]><html
+class="ie ie7 ie-lt10 ie-lt9 ie-lt8 no-js" lang="en-US"> <![endif]--> <!--[if IE 8 ]><html
+class="ie ie8 ie-lt10 ie-lt9 no-js" lang="en-US"> <![endif]--> <!--[if IE 9 ]><html
+class="ie ie9 ie-lt10 no-js" lang="en-US"> <![endif]--> <!--[if gt IE 9]><!--><html
+class="no-js" lang="en-US"><!--<![endif]--><head
+id="www-morgandelaney-me" data-template-set="html5-reset-wordpress-theme"><link
+rel="stylesheet" type="text/css" href="http://192.168.1.67/morgan/wp-content/cache/minify/000000/M9DPzS9KT8zTLy6pzEkFAA.css" media="all" /><meta
+charset="UTF-8"> <!--[if IE ]><meta
+http-equiv="X-UA-Compatible" content="IE=edge"> <![endif]--><title>Morgan Delaney | Vancouver Web Development</title><meta
+name="title" content="Morgan Delaney | Vancouver Web Development"><meta
+name="description" content="Vancouver Web Development"/><meta
+name="author" content="Morgan Delaney"/><meta
+name="Copyright"
+content="Copyright &copy; Morgan Delaney 2014. All Rights Reserved."><meta
+name="viewport" content="width=device-width minimal-ui"/><link
+rel="shortcut icon" href="http://192.168.1.67/morgan/wp-content/themes/morgan/_/img/favicon.png"/><script type="text/javascript" src="http://192.168.1.67/morgan/wp-content/cache/minify/000000/LchbDkAwFEXRCXFu60tMRoqbatOXtgSjJ-Jvry3Ix6xVoJFseXvhHMyd2w49BBY-mrXWNBApq07oGLVjlUzBHP33yJmpkN12zhdJSAnxC94E2PIA.js"></script><link
+rel="profile" href="http://gmpg.org/xfn/11"/><link
+rel="pingback" href="http://192.168.1.67/morgan/xmlrpc.php"/><link
+rel="alternate" type="application/rss+xml" title="Morgan Delaney &raquo; Feed" href="http://192.168.1.67/morgan/feed/" /><link
+rel="alternate" type="application/rss+xml" title="Morgan Delaney &raquo; Comments Feed" href="http://192.168.1.67/morgan/comments/feed/" /><link
+rel="alternate" type="application/rss+xml" title="Morgan Delaney &raquo; Home Comments Feed" href="http://192.168.1.67/morgan/home/feed/" /><link
+rel="EditURI" type="application/rsd+xml" title="RSD" href="http://192.168.1.67/morgan/xmlrpc.php?rsd" /><link
+rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://192.168.1.67/morgan/wp-includes/wlwmanifest.xml" /><meta
+name="generator" content="WordPress 4.0" /><link
+rel='canonical' href='http://192.168.1.67/morgan/' /><link
+rel='shortlink' href='http://192.168.1.67/morgan/' /></head><body
+class="home page page-id-4 page-template page-template-tplhome-php desktop chrome" id="body"><div
+id="wrapper"><div
+class="theme-panel" id="home-welcome"><div
+class="theme-wrapper"><div
+class="abstract"><div><div
+class="sides"><div
+class="side left"> <img
+src="http://192.168.1.67/morgan/wp-content/themes/morgan/_/img/home/howdy.jpg" alt=""/></div><div
+class="side right"><h1>Hi, my name is Morgan</h1><h2>I make websites. My specialty is front end development, and I work heart-and-soul
+out of beautiful Vancouver, Canada.</h2></div></div></div></div></div><div
+class="media"><div></div></div></div><div
+class="theme-panel valign" id="home-help"><div><div
+class="theme-wrapper"><h2 class="theme-title">Let's work together</h2><ul
+class="helps"><li> <span
+class="number"><span>1</span></span> <span
+class="title">You want a beautiful, controllable website</span> <span
+class="desc">Your website should be more than site; it should be your toolbox. That’s why the websites I build are not only visually impactful, but they also give you the power to update.</span></li><li> <span
+class="number"><span>2</span></span> <span
+class="title">Your team needs a frontend developer</span> <span
+class="desc">Working for more than 3 years with agencies, I’ve got a knack for crafting the perfect user experience and delivering the product you want.</span></li><li> <span
+class="number"><span>3</span></span> <span
+class="title">You want a mobile targeted HTML app</span> <span
+class="desc">I’m passionate about new technology. That’s why I’m always up-to-date with the latest in mobile trends. My websites use proven, cutting-edge technology for the best result.</span></li></ul></div></div></div><div
+class="theme-panel valign" id="home-clients"><div><h2 class="theme-title"> <span
+class="desktop"> I've worked with many<ul
+class="stars"><li>star</li><li>star</li><li>star</li><li>star</li><li>star</li></ul> people, including: </span> <span
+class="mobile">Clients</span></h2><img
+src="http://192.168.1.67/morgan/wp-content/themes/morgan/_/img/home/logos-big.jpg" class="desktop" alt=""/> <img
+src="http://192.168.1.67/morgan/wp-content/themes/morgan/_/img/home/mobile-logos.jpg" class="mobile" alt=""/></div></div><div
+class="theme-panel valign" id="home-portfolio"><div><h2 class="theme-title"> <span
+class="desktop">Have a look at my portfolio</span> <span
+class="mobile">Portfolio</span></h2><div
+class="theme-wrapper"><ul
+class="disciplines"><li>PHP<span> (+ CodeIgniter-Bonfire, WordPress, Drupal)</span></li><li>JavaScript<span> (+ jQuery, AngularJS)</span></li><li>MySQL</li><li>HTML5</li><li>CSS3</li><li>SASS</li><li>Git</li><li>Photoshop</li><li>Illustrator</li><li>Unix-based Server Administration</li><li>Mobile/Responsive Web</li></ul><ul
+class="work desktop"><li> <a
+href="http://evodagroup.com/" target="_blank"> <span
+class="wrap"> <img
+src="http://192.168.1.67/morgan/wp-content/themes/morgan/_/img/home/portfolio/desktop/evoda.jpg" alt=""> </span> <span
+class="text title">Evoda Group</span> <span
+class="text tooltip">Check out my team</span> </a></li><li> <a
+href="http://knowgmo.com/quiz/" target="_blank"> <span
+class="wrap"> <img
+src="http://192.168.1.67/morgan/wp-content/themes/morgan/_/img/home/portfolio/desktop/know-gmo.jpg" alt=""> </span> <span
+class="text title">Nature's Path: Know GMO</span> <span
+class="text tooltip">Take the quiz</span> </a></li><li> <a
+href="http://barbershopfilms.ca/" target="_blank"> <span
+class="wrap"> <img
+src="http://192.168.1.67/morgan/wp-content/themes/morgan/_/img/home/portfolio/desktop/barbershop.jpg" alt=""> </span> <span
+class="text title">Barbershop Films</span> <span
+class="text tooltip">Browse a video portfolio</span> </a></li><li> <a
+href="http://websitestage.ca/north-arm/" target="_blank"> <span
+class="wrap"> <img
+src="http://192.168.1.67/morgan/wp-content/themes/morgan/_/img/home/portfolio/desktop/north-arm.jpg" alt=""> </span> <span
+class="text title">North Arm</span> <span
+class="text tooltip">An awesome full-screen app feel</span> </a></li><li> <a
+href="http://myperformanceevolution.com/" target="_blank"> <span
+class="wrap"> <img
+src="http://192.168.1.67/morgan/wp-content/themes/morgan/_/img/home/portfolio/desktop/performance-evolution.jpg" alt=""> </span> <span
+class="text title">Performance Evolution</span> <span
+class="text tooltip">A beautiful, scrolling website</span> </a></li><li> <a
+href="http://sharenation.tv/" target="_blank"> <span
+class="wrap"> <img
+src="http://192.168.1.67/morgan/wp-content/themes/morgan/_/img/home/portfolio/desktop/sharenation.jpg" alt=""> </span> <span
+class="text title">ShareNation</span> <span
+class="text tooltip">A responsive coupon-charing app</span> </a></li></ul><ul
+class="work mobile"><li> <a
+href="http://evodagroup.com/" target="_blank"> <span
+class="wrap"> <img
+src="http://192.168.1.67/morgan/wp-content/themes/morgan/_/img/home/portfolio/mobile/evoda.jpg" alt=""> </span> </a></li><li> <a
+href="http://sharenation.tv" target="_blank"> <span
+class="wrap"> <img
+src="http://192.168.1.67/morgan/wp-content/themes/morgan/_/img/home/portfolio/mobile/sharenation.jpg" alt=""> </span> </a></li><li> <a
+href="http://comfortinndowntown.com" target="_blank"> <span
+class="wrap"> <img
+src="http://192.168.1.67/morgan/wp-content/themes/morgan/_/img/home/portfolio/mobile/comfort-inn.jpg" alt=""> </span> </a></li></ul></div></div></div><section
+class="theme-panel" id="home-about"><div
+class="right"><div
+class="content"><div> <span
+class="title">I’ll work with you to achieve the website or web app of your dreams.</span> <span
+class="desc">I’m a great listener. I’ve spent my professional career working with fantastic clients,
+finding new, innovative ways to help them achieve their goals. My toolset goes beyond web development:
+communication, management, and analytics are all tools that I use to measure and improve the success of
+your project.</span></div></div></div> </section><section
+class="theme-panel valign" id="home-contact"><div><div
+class="theme-wrapper"><h2 class="theme-title"> <span
+class="desktop">I like you. Do you like me?</span> <span
+class="mobile">Let's chat</span></h2><ul><li> <a
+href="mailto:hi@morgandelaney.me"><i
+class="fa fa-envelope"></i>Say hi@morgandelaney.me</a></li><li> <a
+href="https://github.com/tallmorgan/morgandelaney" target="_blank"><i
+class="fa fa-github-alt"></i>Reveal how I coded this page</a></li></ul></div></div> </section></div><script>
+                var PStudio = {"url":{"site":"http:\/\/192.168.1.67\/morgan","theme":"http:\/\/192.168.1.67\/morgan\/wp-content\/themes\/morgan","ajax":"http:\/\/192.168.1.67\/morgan\/wp-admin\/admin-ajax.php"}};
+                </script></body></html>
