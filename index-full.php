@@ -58,7 +58,7 @@
                         <div class="side right">
                             <h1>Hi, my name is Morgan</h1>
 
-                            <h2>I make websites. My specialty is front end development and I work heart-and-soul
+                            <h2>I make web and mobile apps. My specialty is front end development and I work
                                 out of beautiful Vancouver, Canada.</h2>
                         </div>
                     </div>
