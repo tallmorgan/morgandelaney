@@ -7,7 +7,7 @@
  * parameters in order to make sharing easy for visitors with the link.
  */
 if (isset($_GET['full'])) {
-    include('full/helpers.php');
+    include('full/libs/content.php');
     include('index-full.php');
 } else {
     include('index-simple.php');

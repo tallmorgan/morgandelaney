@@ -1,12 +1,12 @@
-var Mo_Home = function ($) {
-    var root = this;
+jQuery(function () {
+    var $ = jQuery;
 
-    this.init = function () {
-        root.animate_hero();
-        root.animate_body();
-    };
+    function init() {
+        animateHero();
+        animateBody();
+    }
 
-    this.animate_hero = function () {
+    function animateHero() {
         var current_id = 0,
             throttle = 0,
             throttle_step = 300; // Break up when the images actually appear, just a bit
@@ -31,19 +31,13 @@ var Mo_Home = function ($) {
                 current_id++;
             }
         });
-    };
+    }
 
-    this.animate_body = function () {
+    function animateBody() {
         if ($('#home-help').find('.theme-title').offset().top)
             evdAnimate.left_to_right('#home-help', '.has-animation', 250);
         evdAnimate.left_to_right('#home-portfolio', '.has-animation', 200);
-    };
+    }
 
-    this.init();
-    return this;
-};
-
-var moHome;
-jQuery(function () {
-    moHome = new Mo_Home(jQuery);
+    init();
 });

@@ -29,7 +29,7 @@
     <meta name="author" content="Morgan Delaney"/>
     <meta name="Copyright"
           content="Copyright &copy; Morgan Delaney <?php echo date('Y'); ?>. All Rights Reserved.">
-    <meta name="viewport" content="<?php morgan_viewport(); ?> minimal-ui"/>
+    <meta name="viewport" content="device-width"/>
     <link rel="shortcut icon" href="full/img/favicon.png"/>
     <link rel="stylesheet" href="full/css/style.css"/>
     <script src="full/js/modernizr-2.8.0.dev.js"></script>
