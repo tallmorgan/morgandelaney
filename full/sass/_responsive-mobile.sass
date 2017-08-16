@@ -115,17 +115,17 @@ $media-height-mobile: vw(300px)
         max-width: 260px // Arbitrary
         .height
           position: relative
-          padding-top: percentage(679 / 360)
+          padding-top: percentage(895 / 480) // background dimensions
           height: auto
         .wrap
           display: block
           margin: 0 auto
-          width: percentage(272 / 360)
-          padding-top: percentage(481 / 360)
+          width: percentage(204 / 260)
+          padding-top: percentage(363 / 260)
           position: relative
-          left: 0
+          top: -1px
         a
-          +calc('padding-top', "#{percentage(100 / 360)} - 1px")
+          +calc('padding-top', "#{percentage(58 / 260)} + 1px")
           position: absolute
           top: 0
           left: 0
