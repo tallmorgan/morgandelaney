@@ -127,8 +127,12 @@
                 <span class="mobile">Clients</span>
             </h2>
 
-            <div class="img desktop"><div><img src="full/img/home/logos-big-fs8.png" alt=""/></div></div>
-            <div class="img mobile"><div><img src="full/img/home/mobile-logos-fs8.png" alt=""/></div></div>
+            <div class="img desktop">
+                <div><img src="full/img/home/logos-big-fs8.png" alt=""/></div>
+            </div>
+            <div class="img mobile">
+                <div><img src="full/img/home/mobile-logos-fs8.png" alt=""/></div>
+            </div>
 
         </div>
     </div>
@@ -160,7 +164,7 @@
                                     <a href="<?php echo $portfolio['url']; ?>" target="_blank">
                                         <span class="wrap">
                                             <img src="<?php echo 'full/img/home/portfolio/' . $device . '/' .
-                                                $portfolio['img'] . '.jpg'; ?>" alt="">
+                                                $portfolio['img'] . '-fs8.png'; ?>" alt="">
                                         </span>
                                         <?php if ($device == 'desktop') : ?>
                                             <span class="text title"><?php echo $portfolio['title']; ?></span>
@@ -186,9 +190,9 @@
                 <div>
                     <span class="title">I’ll work with you to achieve the website or web app of your dreams.</span>
                     <span class="desc">I’m a great listener. I’ve spent my professional career working with fantastic clients,
-            finding new, innovative ways to help them achieve their goals. My toolset goes beyond web development:
-            communication, management, and analytics are all tools that I use to measure and improve the success of
-            your project.</span>
+                    finding new, innovative ways to help them achieve their goals. My toolset goes beyond web development:
+                    communication, management, and analytics are all tools that I use to measure and improve the success of
+                    your project.</span>
                 </div>
             </div>
         </div>

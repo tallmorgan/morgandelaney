@@ -43,54 +43,54 @@ class Content
         return array(
             'desktop' => array(
                 array(
-                    'img' => 'evoda',
-                    'url' => 'http://evodagroup.com/',
-                    'title' => 'Evoda Group',
-                    'tooltip' => 'Check out my team',
+                    'img' => 'bikes',
+                    'url' => 'http://www.bikes.com/',
+                    'title' => 'Rocky Mountain Bikes',
+                    'tooltip' => 'Slick multi-page redesign',
                 ),
                 array(
-                    'img' => 'know-gmo',
-                    'url' => 'http://knowgmo.com/quiz/',
-                    'title' => 'Nature\'s Path: Know GMO',
-                    'tooltip' => 'Take the quiz',
+                    'img' => 'more-rewards',
+                    'url' => 'https://morerewards.ca/',
+                    'title' => 'More Rewards',
+                    'tooltip' => 'E-commerce repaint',
+                ),
+                array(
+                    'img' => 'western-family',
+                    'url' => 'https://westernfamily.ca/',
+                    'title' => 'Western Family',
+                    'tooltip' => 'CMS for a large grocery brand',
+                ),
+                array(
+                    'img' => 'invoke',
+                    'url' => 'https://invokedigital.co/',
+                    'title' => 'Invoke Digital',
+                    'tooltip' => 'Me and my team',
                 ),
                 array(
                     'img' => 'barbershop',
                     'url' => 'http://barbershopfilms.ca/',
                     'title' => 'Barbershop Films',
-                    'tooltip' => 'Browse a video portfolio',
-                ),
-                array(
-                    'img' => 'north-arm',
-                    'url' => 'http://websitestage.ca/north-arm/',
-                    'title' => 'North Arm',
-                    'tooltip' => 'An awesome full-screen app feel',
+                    'tooltip' => 'Video portfolio',
                 ),
                 array(
                     'img' => 'performance-evolution',
                     'url' => 'http://myperformanceevolution.com/',
                     'title' => 'Performance Evolution',
-                    'tooltip' => 'A beautiful, scrolling website',
-                ),
-                array(
-                    'img' => 'sharenation',
-                    'url' => 'http://sharenation.tv/',
-                    'title' => 'ShareNation',
-                    'tooltip' => 'A responsive coupon-charing app',
+                    'tooltip' => 'Full-screen scrolling website',
                 ),
             ),
             'mobile' => array(
                 array(
-                    'img' => 'evoda',
-                    'url' => 'http://evodagroup.com/',
+                    'img' => 'bikes',
+                    'url' => 'http://www.bikes.com/',
                 ),
                 array(
-                    'img' => 'sharenation',
-                    'url' => 'http://sharenation.tv',
+                    'img' => 'more-rewards',
+                    'url' => 'https://morerewards.ca/',
                 ),
                 array(
-                    'img' => 'comfort-inn',
-                    'url' => 'http://comfortinndowntown.com',
+                    'img' => 'western-family',
+                    'url' => 'https://westernfamily.ca/',
                 ),
             ),
         );
