@@ -188,7 +188,7 @@
         <div class="right">
             <div class="content">
                 <div>
-                    <span class="title">I've got the tools for the job.</span>
+                    <span class="title">I've got the tools for the&nbsp;job.</span>
                     <span class="desc">I'm technical, collaborative, and social. For the last <?php print Content::experience(); ?>
                         years, I've worked with agencies, startups, and various small to medium sized businesses. My skillset
                         goes beyond web development: communication, management, and analytics are all tools that I use to
