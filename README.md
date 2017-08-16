@@ -10,3 +10,13 @@ node-sass --output css --source-map true --source-map-contents sass/style.sass
 ```
 
 > Note that `node-sass` calls can use `--watch` during development
+
+## Deploying
+
+```
+# Set up SSH access and host
+git add remote production ssh://morgan/var/repo/site.git
+
+# Pushing to production will auto checkout and compile
+git push production master
+```
