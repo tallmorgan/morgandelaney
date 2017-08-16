@@ -11,11 +11,11 @@ class Content
             ),
             array(
                 'title' => 'You want a native iOS and Android mobile app',
-                'desc' => 'New technology such as React Native allows developers like me to create blazing fast, cross-platform native mobile apps for less cost and more value.',
+                'desc' => 'New technology such as React Native allows developers like me to create blazing fast, cross-platform native mobile apps for lower cost and more value.',
             ),
             array(
                 'title' => 'You want a responsive or mobile targeted HTML app',
-                'desc' => 'All my websites and web apps are responsive. With a sharp increase in mobile users, experience in effective responsive is a must. Why? ' . str_replace(' ', '&nbsp;', 'Because it\'s ' . date('Y') . '.'),
+                'desc' => 'All my websites and web apps are responsive. This means that users will get the same experience across desktop, tablet, and mobile devices.',
             ),
         );
     }
