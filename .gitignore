@@ -24,4 +24,8 @@
 !README.md
 !api/
 
+!simple/
+!index-simple.php
+simple/style.css
+
 wp-content/cache/
