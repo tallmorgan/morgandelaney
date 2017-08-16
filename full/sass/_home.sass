@@ -162,7 +162,9 @@ $media-height: 322px
       left: 0
     &.desktop
       width: 1200px
-      height: 222px
+      max-width: 100%
+      div
+        padding-top: percentage(222 / 1200)
     &.mobile
       display: none
 
