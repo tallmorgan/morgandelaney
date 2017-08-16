@@ -1,30 +1,5 @@
-/*!
- * Theme Name: Morgan Delaney
- * Theme URI: http://morgandelaney.me
- * Description: A custom theme for professional appeal
- * Author: Morgan Delaney
- * Version: 1.0
- */
-
-@import "https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700"
-
-=calc($property, $expression)
-  #{$property}: -webkit-calc(#{$expression})
-  #{$property}: calc(#{$expression})
-
-=inline-block()
-  display: inline-block
-  vertical-align: middle
-
-$body-font-size: 1.1rem // May be set to 0 for inline-block spaces
-$body-line-height: 1.5rem
-
-$blue: #375777
-$tan: #c8a888
-
-$dark-gray: #555
-$light-gray: #999
-
+@import "mixins"
+@import "variables"
 @import "font-awesome/scss/font-awesome"
 @import "reset"
 @import "boilerplate"

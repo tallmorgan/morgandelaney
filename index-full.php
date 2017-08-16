@@ -24,12 +24,12 @@
     <title>Morgan Delaney</title>
 
     <meta name="title" content="Morgan Delaney">
-    <meta name="description"
-          content="Full stack web and mobile app developer for small and medium sized businesses and startups."/>
+    <meta name="description" content="<?php echo Content::meta_description(); ?>"/>
     <meta name="author" content="Morgan Delaney"/>
-    <meta name="Copyright"
-          content="Copyright &copy; Morgan Delaney <?php echo date('Y'); ?>. All Rights Reserved.">
-    <meta name="viewport" content="device-width"/>
+    <meta name="Copyright" content="<?php echo Content::meta_copyright(); ?>">
+    <meta name="viewport" content="width=device-width"/>
+
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:400,300,600,700"/>
     <link rel="shortcut icon" href="full/img/favicon.png"/>
     <link rel="stylesheet" href="full/css/style.css"/>
     <script src="full/js/modernizr-2.8.0.dev.js"></script>

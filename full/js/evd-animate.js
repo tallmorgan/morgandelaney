@@ -1,6 +1,5 @@
 /**
- * This helps various CSS3 animations throughout
- * the website.
+ * This helps various CSS3 animations throughout the website.
  */
 var Evd_Animate = function()
 {
