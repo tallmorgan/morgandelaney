@@ -58,26 +58,32 @@ $media-height: 322px
     .medium
       transition: all 0.3s ease-out
       position: absolute
+      div
+        background-repeat: no-repeat
+        background-size: cover
       &.tablet
-        background: url("../img/home/media/regular/tablet-fs8.png") no-repeat
         width: 493px
-        height: 352px
         bottom: -33px
         left: 351px
+        div
+          background-image: url("../img/home/media/regular/tablet-fs8.png")
+          padding-top: percentage(425 / 600)
       &.mobile
-        background: url("../img/home/media/regular/mobile-fs8.png") no-repeat
         width: 181px
-        height: 341px
         bottom: -84px
         left: 345px
         z-index: 10
+        div
+          background-image: url("../img/home/media/regular/mobile-fs8.png")
+          padding-top: percentage(895 / 480)
       &.laptop
-        background: url("../img/home/media/regular/laptop-fs8.png") no-repeat
         width: 462px
-        height: 265px
         bottom: -1px
         left: 6px
         z-index: 5
+        div
+          background-image: url("../img/home/media/regular/laptop-fs8.png")
+          padding-top: percentage(451 / 800)
       &.hide
         transform: translateY(100px)
         opacity: 0

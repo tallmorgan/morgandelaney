@@ -70,7 +70,9 @@
         <div class="media">
             <div>
                 <?php foreach (array('mobile', 'tablet', 'laptop') as $device) : ?>
-                    <div class="medium hide <?php echo $device; ?>"></div>
+                    <div class="medium hide <?php echo $device; ?>">
+                        <div></div>
+                    </div>
                 <?php endforeach; ?>
             </div>
         </div>

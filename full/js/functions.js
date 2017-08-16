@@ -22,7 +22,7 @@ jQuery(function () {
 
         $('#home-welcome').find('.media .medium').each(function () {
             var $this = $(this),
-                bg = $(this).css('background-image'),
+                bg = $(this).find('div').css('background-image'),
                 matches = bg.match(/\((.*)\)/);
 
             if (matches) {
