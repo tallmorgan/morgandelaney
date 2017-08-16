@@ -144,16 +144,18 @@
                     <ul class="work <?php echo $device; ?>">
                         <?php foreach ($work as $portfolio) : ?>
                             <li class="has-animation">
-                                <a href="<?php echo $portfolio['url']; ?>" target="_blank">
-                  <span class="wrap">
-                    <img src="<?php echo 'full/img/home/portfolio/' . $device . '/' .
-                        $portfolio['img'] . '.jpg'; ?>" alt="">
-                  </span>
-                                    <?php if ($device == 'desktop') : ?>
-                                        <span class="text title"><?php echo $portfolio['title']; ?></span>
-                                        <span class="text tooltip"><?php echo $portfolio['tooltip']; ?></span>
-                                    <?php endif; ?>
-                                </a>
+                                <div class="height">
+                                    <a href="<?php echo $portfolio['url']; ?>" target="_blank">
+                                        <span class="wrap">
+                                            <img src="<?php echo 'full/img/home/portfolio/' . $device . '/' .
+                                                $portfolio['img'] . '.jpg'; ?>" alt="">
+                                        </span>
+                                        <?php if ($device == 'desktop') : ?>
+                                            <span class="text title"><?php echo $portfolio['title']; ?></span>
+                                            <span class="text tooltip"><?php echo $portfolio['tooltip']; ?></span>
+                                        <?php endif; ?>
+                                    </a>
+                                </div>
                             </li>
                         <?php endforeach; ?>
                     </ul>

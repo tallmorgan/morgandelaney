@@ -110,26 +110,36 @@ $media-height-mobile: vw(300px)
       display: block
       li
         width: vw(360px)
-        height: vw(679px)
-        margin: 0 auto vw(60px)
+        margin: 0 auto 60px
         display: block
+        max-width: 260px // Arbitrary
+        .height
+          position: relative
+          padding-top: percentage(679 / 360)
+        .wrap
+          display: block
+          margin: 0 auto
+          width: percentage(272 / 360)
+          padding-top: percentage(481 / 360)
+          position: relative
+          left: 0
         a
+          +calc('padding-top', "#{percentage(100 / 360)} - 1px")
+          position: absolute
+          top: 0
+          left: 0
+          width: 100%
           display: block
           height: 100%
           background: url("../img/home/mobile-portfolio.jpg") no-repeat 0 0
           background-size: contain
-        .wrap
-          display: block
-          margin: 0 auto
-          position: relative
-          top: vw(100px)
-          width: vw(270px)
-          height: vw(479px)
-          left: 0
         img
           display: block
           width: 100%
           height: 100%
+          position: absolute
+          top: 0
+          left: 0
 
 #home-contact
   height: 290px
