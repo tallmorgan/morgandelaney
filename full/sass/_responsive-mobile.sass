@@ -11,7 +11,8 @@
     display: block
 
 .has-animation
-  opacity: 1!important // It really is important! Never hide on mobile (nasty scroll)!
+  /* It really is important, never hide on mobile (nasty scroll) */
+  opacity: 1 !important
 
 $media-height-mobile: 300px
 
@@ -34,7 +35,7 @@ $media-height-mobile: 300px
             margin: 0 auto 60px
   .media
     > div
-      background-image: url( "_/img/home/mobile-media.jpg" )
+      background-image: url("../img/home/mobile-media.jpg")
       height: $media-height-mobile
       width: 529px
     .medium
@@ -70,7 +71,7 @@ $media-height-mobile: 300px
       display: block
       width: 360px
       height: 422px
-        
+
 #home-portfolio
   .disciplines
     margin: 0 auto 60px
@@ -92,7 +93,7 @@ $media-height-mobile: 300px
         a
           display: block
           height: 100%
-          background: url( "_/img/home/mobile-portfolio.jpg" ) no-repeat
+          background: url("../img/home/mobile-portfolio.jpg") no-repeat
         .wrap
           display: block
           margin: 0 auto

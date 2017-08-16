@@ -196,7 +196,7 @@
                     </li>
                     <li>
                         <a href="https://github.com/tallmorgan/morgandelaney" target="_blank">
-                            <i class="fa fa-github-alt"></i><!-- -->Reveal how I coded this page
+                            <i class="fa fa-github-alt"></i>Reveal how I coded this page
                         </a>
                     </li>
                 </ul>
