@@ -5,7 +5,7 @@
     <link href="//fonts.googleapis.com/css?family=Roboto:100,500" rel="stylesheet" type="text/css">
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel="shortcut icon" href="simple/favicon.png" />
-    <link rel="stylesheet" href="simple/style.css" />
+    <link rel="stylesheet" href="simple/css/style.css" />
 </head>
 <body>
 <div class="shadow"></div>

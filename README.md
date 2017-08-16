@@ -10,3 +10,9 @@ line at the top of index.php:
 ```
 if (!isset($_GET['full'])) die(include('index-simple.php'));
 ```
+
+## Compiling SASS
+
+**Simple**: `(cd simple && node-sass --output css --source-map true --source-map-contents sass/style.sass)`
+
+> Note that `node-sass` calls can use `--watch` during development

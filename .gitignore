@@ -26,6 +26,6 @@
 
 !simple/
 !index-simple.php
-simple/style.css
+simple/css/
 
 wp-content/cache/
