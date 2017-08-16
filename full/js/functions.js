@@ -5,18 +5,11 @@ jQuery(function () {
     var $ = jQuery;
 
     /**
-     * We'll be updating viewport dynamically
-     */
-    var viewport = $('meta[name="viewport"]');
-    var viewportContent = viewport.attr('content');
-
-    /**
      * Constructor
      */
     function init() {
         animateHero();
         animateBody();
-        bindViewport();
     }
 
     /**
@@ -56,26 +49,6 @@ jQuery(function () {
         if ($('#home-help').find('.theme-title').offset().top)
             evdAnimate.left_to_right('#home-help', '.has-animation', 250);
         evdAnimate.left_to_right('#home-portfolio', '.has-animation', 200);
-    }
-
-    /**
-     * Update viewport on window resize
-     */
-    function bindViewport() {
-        $(window).on('resize', $updateViewport);
-        $updateViewport();
-    }
-
-    /**
-     * Provide the same experience for all mobile devices
-     */
-    function $updateViewport() {
-        var newContent = 'width=' + ($(window).width() <= 1024 ? '640' : 'device-width');
-
-        if (newContent !== viewportContent) {
-            viewportContent = newContent;
-            viewport.attr('content', newContent);
-        }
     }
 
     init();

@@ -31,7 +31,7 @@
 
     <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:400,300,600,700"/>
     <link rel="shortcut icon" href="full/img/favicon.png"/>
-    <link rel="stylesheet" href="full/css/style.css"/>
+    <link rel="stylesheet" href="full/css/style.css?v=2"/>
     <script src="full/js/modernizr-2.8.0.dev.js"></script>
     <link rel="profile" href="http://gmpg.org/xfn/11"/>
 
@@ -51,7 +51,9 @@
                 <div>
                     <div class="sides">
                         <div class="side left">
-                            <img src="full/img/home/howdy.jpg" alt=""/>
+                            <div class="image">
+                                <img src="full/img/home/howdy.jpg" alt=""/>
+                            </div>
                         </div>
                         <div class="side right">
                             <h1>Hi, my name is Morgan</h1>

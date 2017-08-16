@@ -1,10 +1,13 @@
 .theme-wrapper
-  width: 600px
+  +calc('width', $mobile-max-width)
+  max-width: 440px // Sort of arbitrary: 480px width 20px gutters
+  overflow: hidden
 
 .theme-panel
-  padding: 60px 0
+  padding: vw(60px) 0
 
 .theme-title
+  margin-bottom: vw(60px)
   .desktop
     display: none
   .mobile
@@ -14,14 +17,15 @@
   /* It really is important, never hide on mobile (nasty scroll) */
   opacity: 1 !important
 
-$media-height-mobile: 300px
+$media-height-mobile: vw(300px)
 
 #home-welcome
   height: auto
-  padding-bottom: $media-height-mobile + 60px
+  +calc('padding-bottom', "#{$media-height-mobile} + 32px")
   .abstract
     height: auto
     > div
+      +calc('width', $mobile-max-width)
       text-align: center
     .sides
       margin: 0
@@ -30,24 +34,40 @@ $media-height-mobile: 300px
       .side
         display: block
         margin: 0 auto
-        &.left
-          img
-            margin: 0 auto 60px
+      .side.left
+        width: vw(204px)
+        position: relative
+      .side.right h1
+        margin-bottom: 14px
+    .image
+      padding-top: 100%
+      width: 100%
+      margin: 0 auto 40px
+      img
+        position: absolute
+        top: 0
+        left: 0
+        width: 100%
+        height: 100%
   .media
     > div
       background-image: url("../img/home/mobile-media.jpg")
       height: $media-height-mobile
-      width: 529px
+      width: vw(529px)
+      background-size: contain
     .medium
       display: none
 
 #home-help .helps li
   display: block
   width: auto
-  margin: 0 0 60px
+  margin: 0 0 36px
   .number
-    width: 78px
-    height: 78px
+    width: 46px
+    height: 46px
+    margin-bottom: 17px
+  .title
+    margin-bottom: 16px
 
 #home-about
   height: auto
@@ -58,27 +78,30 @@ $media-height-mobile: 300px
     position: static
     .content
       > div
-        width: 600px
+        +calc('width', $mobile-max-width)
         margin: 0 auto
         max-width: none
         display: block
-        padding: 40px 20px 60px
+        padding: 40px 20px
+      .title
+        margin: 0 0 18px
 
 #home-clients
   img
     display: none
     &.mobile
       display: block
-      width: 360px
-      height: 422px
+      width: vw(360px)
+      height: vw(422px)
 
 #home-portfolio
   .disciplines
-    margin: 0 auto 60px
+    margin: 0 auto vw(62px)
     li
       white-space: normal
       text-align: left
       display: inline
+      line-height: 1.6rem
       span
         display: none
   .work
@@ -86,28 +109,30 @@ $media-height-mobile: 300px
     &.mobile
       display: block
       li
-        width: 360px
-        height: 679px
-        margin: 0 auto 60px
+        width: vw(360px)
+        height: vw(679px)
+        margin: 0 auto vw(60px)
         display: block
         a
           display: block
           height: 100%
-          background: url("../img/home/mobile-portfolio.jpg") no-repeat
+          background: url("../img/home/mobile-portfolio.jpg") no-repeat 0 0
+          background-size: contain
         .wrap
           display: block
           margin: 0 auto
           position: relative
-          top: 100px
-          width: 270px
-          height: 479px
-          left: 0px
+          top: vw(100px)
+          width: vw(270px)
+          height: vw(479px)
+          left: 0
         img
           display: block
           width: 100%
           height: 100%
 
 #home-contact
+  height: 290px
   ul
     display: block
     width: auto

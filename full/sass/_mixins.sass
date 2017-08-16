@@ -5,3 +5,7 @@
 =inline-block()
   display: inline-block
   vertical-align: middle
+
+@function vw($target)
+  $vw-context: (640*.01) * 1px
+  @return ($target/$vw-context) * 1vw
