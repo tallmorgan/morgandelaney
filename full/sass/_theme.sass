@@ -1,0 +1,85 @@
+// Used to trace the design, left off of course in staging/production
+=ghost
+  &:before
+    content: ''
+    position: absolute
+    top: 11px
+    left: 0
+    width: 100%
+    height: 5000px
+    opacity: 0.3
+    pointer-events: none
+    background: url( "../img/ghost/portfolio.jpg" ) 50% 0 no-repeat
+    z-index: 9999
+
+body
+  //+ghost
+  font-size: $body-font-size
+  color: $dark-gray
+  position: relative
+  font-family: 'Open Sans', sans-serif
+
+html, body, #wrapper
+  //height: 100%
+  margin: 0
+  width: auto
+
+a
+  color: $blue
+  &:hover
+    color: $light-gray
+
+h1, h2, h3, h4, h5, h6
+  font-weight: normal // Safari!
+
+
+#login
+  .forgetmenot label input
+    position: relative
+    top: -3px
+  h1
+    a
+      border-radius: 50%
+      background: url( "../img/home/howdy.jpg" ) no-repeat
+      display: block
+      width: 205px
+      height: 205px
+      text-indent: -9999px
+      margin: 0 auto 20px
+      padding: 0
+
+.theme-panel
+  position: relative
+  //height: 100%
+  font-size: 0
+  padding: 80px 0
+  &.valign
+    &:before
+      +inline-block
+      height: 100%
+      content: ''
+    > div
+      +inline-block
+      font-size: $body-font-size
+      width: 100%
+
+
+.theme-title
+  font-size: 1.7rem
+  text-align: center
+  display: block
+  margin-bottom: 60px
+  //font-weight: 600
+  .mobile
+    display: none
+
+.theme-wrapper
+  max-width: 960px
+  margin: 0 auto
+
+.has-animation
+  transition: all .3s ease-out
+  opacity: 1
+  &.hide
+    transition: all 0s ease-out
+    opacity: 0
