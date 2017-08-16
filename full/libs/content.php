@@ -7,7 +7,7 @@ class Content
         return array(
             array(
                 'title' => 'Your team needs a front end or full stack developer',
-                'desc' => 'With more than 6 years agency experience, I’ve got a knack for crafting the perfect UI/UX, collaborating effectively on teams, and doing so socially.',
+                'desc' => 'With more than ' . self::experience() . ' years agency experience, I’ve got a knack for crafting the perfect UI/UX, collaborating effectively on teams, and delivering projects on time.',
             ),
             array(
                 'title' => 'You want a native iOS and Android mobile app',
@@ -23,18 +23,18 @@ class Content
     public static function home_disciplines()
     {
         return array(
-            'PHP (+ CodeIgniter-Bonfire, WordPress, Drupal)',
-            'JavaScript (+ jQuery, AngularJS)',
+            'PHP (Laravel, WordPress, Drupal)',
+            'JavaScript (Angular1, React, Redux, Node, ES6)',
             'MySQL',
-            'HTML5',
-            'CSS3',
-            'SASS',
             'Git',
+            'HTML5/CSS3',
+            'SASS',
             'Photoshop',
             'Illustrator',
-            'Unix-based Server Administration',
-            'Mobile/Responsive Web',
-            //'LAMP stack',
+            'Sketch',
+            'Unix devops',
+            'Responsive design',
+            'React Native',
         );
     }
 
@@ -104,5 +104,9 @@ class Content
     public static function meta_copyright()
     {
         return "Copyright &copy; Morgan Delaney " . date('Y') . ". All Rights Reserved.";
+    }
+
+    public static function experience() {
+        return date('Y') - 2011;
     }
 }

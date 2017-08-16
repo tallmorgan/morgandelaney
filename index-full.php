@@ -119,11 +119,11 @@
         <div>
 
             <h2 class="theme-title">
-        <span class="desktop">
-          I've worked with many
-          <ul class="stars"><?php for ($i = 0; $i < 5; $i++) echo '<li>star</li>'; ?></ul>
-          people, including:
-        </span>
+                <span class="desktop">
+                  I've worked with many
+                  <ul class="stars"><?php for ($i = 0; $i < 5; $i++) echo '<li>star</li>'; ?></ul>
+                  people, including:
+                </span>
                 <span class="mobile">Clients</span>
             </h2>
 
@@ -188,11 +188,11 @@
         <div class="right">
             <div class="content">
                 <div>
-                    <span class="title">I’ll work with you to achieve the website or web app of your dreams.</span>
-                    <span class="desc">I’m a great listener. I’ve spent my professional career working with fantastic clients,
-                    finding new, innovative ways to help them achieve their goals. My toolset goes beyond web development:
-                    communication, management, and analytics are all tools that I use to measure and improve the success of
-                    your project.</span>
+                    <span class="title">I've got the tools for the job.</span>
+                    <span class="desc">I'm technical, collaborative, and social. For the last <?php print Content::experience(); ?>
+                        years, I've worked with agencies, startups, and various small to medium sized businesses. My toolset
+                        goes beyond web development: communication, management, and analytics are all tools that I use to
+                        measure and improve the success of each project.</span>
                 </div>
             </div>
         </div>
