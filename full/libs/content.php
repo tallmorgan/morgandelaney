@@ -6,16 +6,16 @@ class Content
     {
         return array(
             array(
-                'title' => 'You want a beautiful, controllable website',
-                'desc' => 'Your website should be more than a site; it should be your toolbox. That’s why the websites I build are not only visually impactful, but they also give you the power to update.',
-            ),
-            array(
                 'title' => 'Your team needs a front end or full stack developer',
-                'desc' => 'Working for more than 3 years with agencies, I’ve got a knack for crafting the perfect user experience and delivering the product you want.',
+                'desc' => 'With more than 6 years agency experience, I’ve got a knack for crafting the perfect UI/UX, collaborating effectively on teams, and doing so socially.',
             ),
             array(
-                'title' => 'You want a mobile targeted HTML app',
-                'desc' => 'I’m passionate about new technology. That’s why I’m always up-to-date with the latest in mobile trends. My websites use proven, cutting-edge technology for the best result.',
+                'title' => 'You want a native iOS and Android mobile app',
+                'desc' => 'New technology such as React Native allows developers like me to create blazing fast, cross-platform native mobile apps for less cost and more value.',
+            ),
+            array(
+                'title' => 'You want a responsive or mobile targeted HTML app',
+                'desc' => 'All my websites and web apps are responsive. With a sharp increase in mobile users, experience in effective responsive is a must. Why? ' . str_replace(' ', '&nbsp;', 'Because it\'s ' . date('Y') . '.'),
             ),
         );
     }
