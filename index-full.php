@@ -127,8 +127,8 @@
                 <span class="mobile">Clients</span>
             </h2>
 
-            <img src="full/img/home/logos-big.jpg" class="desktop" alt=""/>
-            <img src="full/img/home/mobile-logos.jpg" class="mobile" alt=""/>
+            <div class="img desktop"><div><img src="full/img/home/logos-big-fs8.png" alt=""/></div></div>
+            <div class="img mobile"><div><img src="full/img/home/mobile-logos-fs8.png" alt=""/></div></div>
 
         </div>
     </div>

@@ -1,10 +1,12 @@
+$theme-panel-padding: vw(60px)
+
 .theme-wrapper
   +calc('width', $mobile-max-width-soft)
   max-width: $mobile-max-width-hard
   overflow: hidden
 
 .theme-panel
-  padding: vw(60px) 0
+  padding: $theme-panel-padding 0
 
 .theme-title
   margin-bottom: vw(60px)
@@ -87,12 +89,16 @@ $media-height-mobile: vw(300px)
         margin: 0 0 18px
 
 #home-clients
-  img
+  padding-top: $theme-panel-padding
+  .img
     display: none
     &.mobile
       display: block
-      width: vw(360px)
-      height: vw(422px)
+      width: vw(360px * 1.4)
+      max-width: 440px // Arbitrary
+      margin-bottom: 20px
+      div
+        padding-top: percentage(246 / 360)
 
 #home-portfolio
   .disciplines
