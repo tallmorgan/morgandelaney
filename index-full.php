@@ -43,11 +43,9 @@
 
     <?php if (isset($_GET['grid'])): ?>
         <div id="dev-grid">
-            <div class="center">
-                <?php for ($i = 0; $i < 12; $i++): ?>
-                    <div class="column"></div>
-                <?php endfor; ?>
-            </div>
+            <?php for ($i = 0; $i < 12; $i++): ?>
+                <div class="column"></div>
+            <?php endfor; ?>
         </div>
     <?php endif; ?>
 
