@@ -60,7 +60,7 @@
                     <div class="sides">
                         <div class="side left">
                             <div class="image">
-                                <img src="full/img/home/howdy.jpg" alt=""/>
+                                <img src="full/img/home/howdy.jpg?v=2" alt=""/>
                             </div>
                         </div>
                         <div class="side right">
