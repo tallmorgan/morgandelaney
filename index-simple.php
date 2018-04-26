@@ -12,7 +12,7 @@
 <div class="content">
     <div class="valign"></div>
     <div class="message">
-        <img src="simple/howdy.jpg?v=2" alt="" />
+        <img src="simple/howdy.jpg?v=3" alt="" />
         <h1>Morgan Delaney</h1>
         <h2>source whisperer</h2>
         <h3><i class="fa fa-envelope"></i>: <a href="mailto:hi@morgandelaney.me">hi@morgandelaney.me</a></h3>
