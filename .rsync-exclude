@@ -1,0 +1,7 @@
+.idea
+.git
+.gitignore
+.gitmodules
+.rsync-exclude
+api
+README.md
