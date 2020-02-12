@@ -17,8 +17,10 @@ node-sass --output css --source-map true --source-map-contents sass/style.sass
 # Set up SSH access and host
 git add remote production ssh://morgan/var/repo/site.git
 
-# Pushing to production will auto checkout and compile
-git push production master
+# Push to production. Cache bust is automatic.
+rsync --exclude .git [OPTION]... SRC [SRC]... [USER@]HOST:DEST
+node-sass -o simple/css simple/sass # if not already compiled
+node-sass -o full/css full/sass # if not already compiled
 ```
 
 ## Feature flags
